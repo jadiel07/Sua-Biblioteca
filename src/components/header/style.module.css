@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0em 5rem;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.7s;
+}
+li:hover {
+  color: bisque;
+}
