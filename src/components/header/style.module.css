@@ -10,6 +10,11 @@ li {
   font-size: 20px;
   transition: 0.7s;
 }
+img {
+  border-radius: 50%;
+  width: 2em;
+  padding-top: 2em;
+}
 li:hover {
   color: bisque;
 }
