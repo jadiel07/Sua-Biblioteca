@@ -5,9 +5,21 @@ export default function Header() {
     <>
       <nav>
         <ul>
-          <li>Contato</li>
+          <a
+            href="https://github.com/jadiel07"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li>Contato</li>
+          </a>
           <img src={logo} alt={logo} />
-          <li>Como usar?</li>
+          <a
+            href="https://youtu.be/PcWKRogn6F8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li>Como usar?</li>
+          </a>
         </ul>
       </nav>
     </>
