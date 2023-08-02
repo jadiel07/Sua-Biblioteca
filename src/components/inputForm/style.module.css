@@ -14,3 +14,55 @@ button {
 
   color: #ffffff;
 }
+.containerCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4em;
+}
+
+.cards {
+  width: 200px;
+  height: 254px;
+  background: linear-gradient(
+    120deg,
+    #e5e5e5 30%,
+    #f0f0f0 38%,
+    #f0f0f0 40%,
+    #e5e5e5 48%
+  );
+
+  border-radius: 10px;
+  margin: 2em;
+  font-family: inherit;
+}
+.figure {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+.cards button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #e8e8e8;
+  color: #111111;
+  font-weight: 600;
+}
+.image {
+  width: 8em;
+}

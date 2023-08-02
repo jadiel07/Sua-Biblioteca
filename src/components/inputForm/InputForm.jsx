@@ -64,11 +64,15 @@ export default function InputForm() {
         <br />
         <button onClick={handleSubbmit}>Enviar</button>
       </form>
-      <div className={style.card}>
+      <div className={style.containerCards}>
         {cards.map((card, index) => (
-          <div key={index}>
-            <h1>{card.name}</h1>
-            <img src={card.image} alt={card.name} />
+          <div className={style.cards} key={index}>
+            <div className={style.figure}>
+              <img className={style.image} src={card.image} alt={card.name} />
+            </div>
+            <div className={style.description}>
+              <h1>{card.name}</h1>
+            </div>
             <button onClick={() => handleDelete(card.id)}>X</button>
           </div>
         ))}
